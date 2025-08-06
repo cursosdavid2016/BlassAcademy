@@ -1,14 +1,27 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ScannerManager {
     static int leerInt(Scanner scanner, String mensaje) {
         System.out.printf("%s: ", mensaje);
-        return scanner.nextInt();
+        try {
+            return scanner.nextInt();
+        }catch (InputMismatchException inputMismatchException){
+            System.out.println("it won't allow String values");
+            return -1;
+        }
+
     }
 
     static double leerDouble(Scanner scanner, String mensaje) {
         System.out.printf("%s: ", mensaje);
-        return scanner.nextDouble();
+
+        try {
+            return scanner.nextDouble();
+        }catch (InputMismatchException inputMismatchException){
+            System.out.println("String values are not allowed");
+            return -1;
+        }
     }
 
     static String leerString(Scanner scanner, String mensaje) {

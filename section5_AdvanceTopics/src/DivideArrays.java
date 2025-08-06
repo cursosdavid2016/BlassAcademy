@@ -27,8 +27,8 @@ public class DivideArrays {
         int n = a.length;
         int[] div = new int[n];
 
+        int cociente;
         for (var i = 0; i < n; i++) {
-            int cociente;
             try {
                 cociente = a[i]/b[i];
                 //System.out.printf("sucess divide: %d%n",div);
