@@ -11,8 +11,8 @@ public class StringArrayChar_37 {
         //4 multilineA();
         //4 multilineB("benjamin",1.77,40);
         //5 stringCompare();
-        //6 cadenaContenida();
-        //7 cadenaContenida();
+        //6 compararCadenas();
+        //7 convertirMayusculas();
         //8 compararAlfabeticamente();
         //9 separarString();
         //10 reemplazar(scanner);
@@ -97,7 +97,7 @@ public class StringArrayChar_37 {
     }
 
     //6- comparar cadenas
-    static void cadenaContenida(){
+    static void compararCadenas(){
         Scanner sc = new Scanner(System.in);
 
         final String cadena1 = "hello word";
@@ -148,6 +148,7 @@ public class StringArrayChar_37 {
         for (int i = 0; i < arrayString.length; i++) {
             System.out.printf("index: %d word: %s%n",i,arrayString[i]);
         }
+
     }
 
     //10 metodo reemplazar
