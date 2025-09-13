@@ -20,7 +20,7 @@ public class BubbleSortList {
     static List<Integer> bubbleSort(List<Integer> list ) {
 
         final int n = list.size();
-        int aux = 0;
+        int aux;
 
             for (int j = 0; j < n - 1; j++) {
                 if (list.get(j) > list.get(j + 1)) {

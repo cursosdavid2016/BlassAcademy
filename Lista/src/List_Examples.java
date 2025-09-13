@@ -3,12 +3,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-public class Lista_01 {
+public class List_Examples {
     public static void main(String[] arg){
         final List<Integer> integer = Arrays.asList(1,2,3,4,5);
         final List<String> strings = Arrays.asList("one","two", "three");
 
-        //fist example
+        //first example
         final List<Double> doubleList = new ArrayList<>();
 
         doubleList.add(3.5);
@@ -54,7 +54,7 @@ public class Lista_01 {
 
     //2
     static List<String> createNames(){
-        return Arrays.asList("monday","tuesday","wednesday","thursday","friday");
+        return Arrays.asList("Monday","Tuesday","Wednesday","Thursday","Friday");
     }
 
     static void printNames(List<String> list){

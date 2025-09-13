@@ -21,7 +21,8 @@ public class NotesList {
     }
 
     static String[] crearNames(){
-        return new String[]{"Carlos","Antonio","Jorge","Ana","Mayra","Julieta","Maria","Rodrigo","Anabel","Luz"};
+        return new String[]{"Carlos","Antonio","Jorge","Ana","Mayra",
+                "Julieta","Maria","Rodrigo","Anabel","Luz"};
     }
 
     static double[] crearNotes(){
