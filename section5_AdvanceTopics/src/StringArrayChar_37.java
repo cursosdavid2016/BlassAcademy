@@ -24,11 +24,11 @@ public class StringArrayChar_37 {
 
     //1- a String is array of chart
     static void stringArrayChar(){
-        final var string = "aloha";
-        final var arrayChar = string.toCharArray();
-
-        for (int i = 0; i < arrayChar.length; i++) {
-            System.out.printf("index: %d value: %c%n",i,arrayChar[i]);
+        final var cadena = "aloha";
+        //chartAt(index)
+        final char[] charArray = cadena.toCharArray();
+        for (int i = 0; i < charArray.length; i++) {
+            System.out.printf("index: %d letter: %c%n",i,charArray[i]);
         }
     }
 
@@ -38,12 +38,6 @@ public class StringArrayChar_37 {
 
         //length
         System.out.printf("cadena size is: %s%n",cadena.length());
-
-        //chartAt(index)
-        final char[] charArray = cadena.toCharArray();
-        for (int i = 0; i < charArray.length; i++) {
-            System.out.printf("index: %d letter: %c%n",i,charArray[i]);
-        }
 
         //.indexOf(char/String)
         System.out.printf("the index of the 'o' letter is: %d%n",cadena.indexOf('o'));
@@ -60,7 +54,7 @@ public class StringArrayChar_37 {
 
     //4- multiline A
     static void multilineA(){
-        final var multiline = """
+        final String multiline = """
                 name: jesus,
                 size: 1.77,
                 age: 33

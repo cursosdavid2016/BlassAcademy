@@ -5,6 +5,7 @@ public class ThreadSleepExercise {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int readNumber;
+
         do {
             readNumber = ScannerManager
                     .leerInt(scanner,"please enter seconds (1-5) or press '0' to exit");

@@ -34,6 +34,11 @@ public class _38_3_USDPrice {
         final List<Double> doubleList = new ArrayList<>();
         final int n = cleanList.size();
         double add=0;
+/*
+        for(String element: cleanList){
+            doubleList.add(Double.parseDouble(element));
+        }
+*/
 
         for (var i = 0; i < n; i++) {
             doubleList.add(Double.parseDouble(cleanList.get(i)));
